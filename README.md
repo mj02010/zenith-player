@@ -28,10 +28,9 @@ You can create your own deployable instance in a few steps:
    {
      "tracks": [
        {
-         "title": "Song - Author", // Title of the song
-         "isFavorite": true, // Favorite song
-         "isNotAutoInstalled": false // Should the build tool attempt
-                                     // to auto-install this track
+         "title": "Song - Author",
+         "isFavorite": true,
+         "isNotAutoInstalled": false
        },
        ...
      ]
