@@ -8,7 +8,7 @@ _Completely your own, completely free, forever!_
 
 **Ever wanted a simple music solution that doesn't break the bank like popular services**
 (~~_cough Spotify cough_~~). Look no further! **Zenith is a music player built using React
-and SCSS** t! It also utilizes service workers to pre-cache and **provide offline capabilities**,
+and SCSS**! It also utilizes service workers to pre-cache and **provide offline capabilities**,
 so you can **take your music on the road**!
 
 ## Getting Started
@@ -42,7 +42,7 @@ You can create your own deployable instance in a few steps:
 3. (Optional) if you're using the audio build tool, you might need a Youtube Cookie
    to actually get the song ([ytdl-core#980](https://github.com/fent/node-ytdl-core/issues/980#issuecomment-886211227)).
    You can get it by going to the Network tab in DevTools and copy-pasting the Cookie
-   field.
+   field into a `YT_COOKIE` environmental variable.
 
 4. Add any local songs to the `/public/audio/` folder with the name as the index of the song
    in the tracks.json file. For example the third song would be "3.mp3".
