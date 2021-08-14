@@ -34,5 +34,4 @@ replit.nix
 
 # extra
 public/audio/**
-src/libs/tracks.json
 .prettierrc
